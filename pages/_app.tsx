@@ -1,8 +1,6 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+// https://nextjs.org/docs/messages/css-global
+import '../src/app/App.scss'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import { App } from '../src/app/App'
 
-export default MyApp
+export default App
